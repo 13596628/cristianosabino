@@ -1,0 +1,33 @@
+Comandos git
+
+Work dir - diretorio de trabalha
+Git init - cria um repositorio local
+git status - Retorna o status atual do diretorio
+		qual branch esta
+		verifica se ha algum commit 
+git add -
+
+o que é branch
+PAcotes. 
+Cada branch temos pacotes
+ex: Branch de desenvimento
+ex: branch de homolocação
+ex: Branch Master (no caso produção)
+
+Repositorio pode ser local ou remoto.
+Sempre havera um repositorio local e um remoto pois o git trabalha de forma separada
+ou seja.
+todas as alterações normalmente são feitas localmente e ao terminar sincroniza com o remoto
+ da pra dar prosseguimento mesmo estando sem rede 
+
+get add <file>
+Quando se adiciona uma arquivo no repositorio local (ex aula GIT) o git sabe que 
+um arquivo foi criado , porém ele ainda não foi trackeado e portanto essa informação
+deve ser repassada ao sistela através do comando GIT ADD <FILE> e a partir daí o arquivo estará INDEX
+
+Caso vc não queira que o git faça nenhuma alteração por erro , etc...
+pode remover o arquivo.
+
+A recomendação é que os arquivos quando criados devem ser craqueados pelo git para que sejam reconhecidos 
+e caso haja muitos arquivos na pasta , para não fazar um a um utiliza-se o comando 
+git add *
