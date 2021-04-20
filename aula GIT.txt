@@ -31,3 +31,35 @@ pode remover o arquivo.
 A recomendação é que os arquivos quando criados devem ser craqueados pelo git para que sejam reconhecidos 
 e caso haja muitos arquivos na pasta , para não fazar um a um utiliza-se o comando 
 git add *
+
+FAZER o COMMIT - literalmente versionar o codigo
+commit -m"meu primeiro commit"
+
+Durante a tentativa de efetuar o commit pode apresentar o erro 
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP@HP-PC.(none)')
+
+informar : 
+$ git config --global user.email "cristianosabino@gmail.com"
+ git config --global user.name "cristiano.sabino"
+
+RESULTADO DO COMMIT
+$ git commit -m"commit 1"
+[master (root-commit) c7bd56a] commit 1
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Servidor_teste.json
+ create mode 100644 pachage.json
+
+------------
+instalar nova versão, instalando um novo pacote para teste
